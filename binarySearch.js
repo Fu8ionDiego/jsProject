@@ -1,5 +1,5 @@
 const list = [1,2,3,4,5,6,7,8,9,10];
-let target = 4;
+let target = 9;
 
 let left = 0;
 let right = list.length -1;
@@ -23,4 +23,4 @@ if (target === mid){
 return -1
 
 }
-returTarget();
+console.log(returTarget());
